@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		215AAC5A1417C6BB00372ABD /* Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 215AAC591417C6BB00372ABD /* Resource.m */; };
+		215C6CFA1418A37E00DB2434 /* lambda_rot.png in Resources */ = {isa = PBXBuildFile; fileRef = 215C6CF91418A37E00DB2434 /* lambda_rot.png */; };
+		215C6CFC1418A5E200DB2434 /* aoc_lambda_rot.icns in Resources */ = {isa = PBXBuildFile; fileRef = 215C6CFB1418A5E200DB2434 /* aoc_lambda_rot.icns */; };
+		215C6CFF1418E9AE00DB2434 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 215C6CFE1418E9AE00DB2434 /* AddressBook.m */; };
+		2175ACC4141A39700062FD1A /* ContextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175ACC3141A39700062FD1A /* ContextView.m */; };
+		2176400A141C8A220074D800 /* Speech.m in Sources */ = {isa = PBXBuildFile; fileRef = 21764009141C8A220074D800 /* Speech.m */; };
+		217B9497141B8D7B001E8D45 /* DragDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B9496141B8D7B001E8D45 /* DragDrop.m */; };
+		219311C3140D4E6200B82BFA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219311C2140D4E6200B82BFA /* Cocoa.framework */; };
+		219311CD140D4E6200B82BFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 219311CB140D4E6200B82BFA /* InfoPlist.strings */; };
+		219311CF140D4E6200B82BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 219311CE140D4E6200B82BFA /* main.m */; };
+		219311D3140D4E6200B82BFA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 219311D1140D4E6200B82BFA /* Credits.rtf */; };
+		219311D6140D4E6200B82BFA /* zemaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 219311D5140D4E6200B82BFA /* zemaAppDelegate.m */; };
+		219311D9140D4E6200B82BFA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219311D7140D4E6200B82BFA /* MainMenu.xib */; };
+		219311DC140D4E6200B82BFA /* zema.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 219311DA140D4E6200B82BFA /* zema.xcdatamodeld */; };
+		219311E4140D4E6200B82BFA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219311E3140D4E6200B82BFA /* SenTestingKit.framework */; };
+		219311E5140D4E6200B82BFA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219311C2140D4E6200B82BFA /* Cocoa.framework */; };
+		219311ED140D4E6200B82BFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 219311EB140D4E6200B82BFA /* InfoPlist.strings */; };
+		219311EF140D4E6200B82BFA /* zemaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 219311EE140D4E6200B82BFA /* zemaTests.h */; };
+		219311F1140D4E6200B82BFA /* zemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219311F0140D4E6200B82BFA /* zemaTests.m */; };
+		21E47F8C1417A70300279819 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E47F8A1417A70300279819 /* SearchController.m */; };
+		21E47F8D1417A70300279819 /* SearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21E47F8B1417A70300279819 /* SearchController.xib */; };
+		21E47F8F1417BEDB00279819 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E47F8E1417BEDB00279819 /* AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219311E6140D4E6200B82BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219311B5140D4E6200B82BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219311BD140D4E6200B82BFA;
+			remoteInfo = zema;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		215AAC581417C6BB00372ABD /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
+		215AAC591417C6BB00372ABD /* Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resource.m; sourceTree = "<group>"; };
+		215C6CF91418A37E00DB2434 /* lambda_rot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lambda_rot.png; sourceTree = "<group>"; };
+		215C6CFB1418A5E200DB2434 /* aoc_lambda_rot.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = aoc_lambda_rot.icns; sourceTree = "<group>"; };
+		215C6CFD1418E9AE00DB2434 /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		215C6CFE1418E9AE00DB2434 /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		2175ACC2141A39700062FD1A /* ContextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextView.h; sourceTree = "<group>"; };
+		2175ACC3141A39700062FD1A /* ContextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextView.m; sourceTree = "<group>"; };
+		21764008141C8A220074D800 /* Speech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speech.h; sourceTree = "<group>"; };
+		21764009141C8A220074D800 /* Speech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speech.m; sourceTree = "<group>"; };
+		217B9495141B8D7B001E8D45 /* DragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDrop.h; sourceTree = "<group>"; };
+		217B9496141B8D7B001E8D45 /* DragDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDrop.m; sourceTree = "<group>"; };
+		217B949B141B9641001E8D45 /* DragDopTypedefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDopTypedefs.h; sourceTree = "<group>"; };
+		219311BE140D4E6200B82BFA /* Zema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		219311C2140D4E6200B82BFA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		219311C5140D4E6200B82BFA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		219311C6140D4E6200B82BFA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		219311C7140D4E6200B82BFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		219311CA140D4E6200B82BFA /* Zema-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zema-Info.plist"; sourceTree = "<group>"; };
+		219311CC140D4E6200B82BFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		219311CE140D4E6200B82BFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		219311D0140D4E6200B82BFA /* Zema-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zema-Prefix.pch"; sourceTree = "<group>"; };
+		219311D2140D4E6200B82BFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		219311D4140D4E6200B82BFA /* zemaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zemaAppDelegate.h; sourceTree = "<group>"; };
+		219311D5140D4E6200B82BFA /* zemaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zemaAppDelegate.m; sourceTree = "<group>"; };
+		219311D8140D4E6200B82BFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		219311DB140D4E6200B82BFA /* zema.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zema.xcdatamodel; sourceTree = "<group>"; };
+		219311E2140D4E6200B82BFA /* ZemaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZemaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		219311E3140D4E6200B82BFA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		219311EA140D4E6200B82BFA /* ZemaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZemaTests-Info.plist"; sourceTree = "<group>"; };
+		219311EC140D4E6200B82BFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		219311EE140D4E6200B82BFA /* zemaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zemaTests.h; sourceTree = "<group>"; };
+		219311F0140D4E6200B82BFA /* zemaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zemaTests.m; sourceTree = "<group>"; };
+		21E47F891417A70300279819 /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
+		21E47F8A1417A70300279819 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
+		21E47F8B1417A70300279819 /* SearchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchController.xib; sourceTree = "<group>"; };
+		21E47F8E1417BEDB00279819 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219311BB140D4E6200B82BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E47F8F1417BEDB00279819 /* AddressBook.framework in Frameworks */,
+				219311C3140D4E6200B82BFA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219311DE140D4E6200B82BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219311E4140D4E6200B82BFA /* SenTestingKit.framework in Frameworks */,
+				219311E5140D4E6200B82BFA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2176400C141CEA310074D800 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				215C6CFD1418E9AE00DB2434 /* AddressBook.h */,
+				215C6CFE1418E9AE00DB2434 /* AddressBook.m */,
+				217B9495141B8D7B001E8D45 /* DragDrop.h */,
+				217B9496141B8D7B001E8D45 /* DragDrop.m */,
+				217B949B141B9641001E8D45 /* DragDopTypedefs.h */,
+				215AAC581417C6BB00372ABD /* Resource.h */,
+				215AAC591417C6BB00372ABD /* Resource.m */,
+				21764008141C8A220074D800 /* Speech.h */,
+				21764009141C8A220074D800 /* Speech.m */,
+			);
+			name = Helper;
+			path = zema/Helper;
+			sourceTree = SOURCE_ROOT;
+		};
+		219311B3140D4E6200B82BFA = {
+			isa = PBXGroup;
+			children = (
+				215C6CFB1418A5E200DB2434 /* aoc_lambda_rot.icns */,
+				215C6CF91418A37E00DB2434 /* lambda_rot.png */,
+				219311C8140D4E6200B82BFA /* zema */,
+				219311E8140D4E6200B82BFA /* zemaTests */,
+				219311C1140D4E6200B82BFA /* Frameworks */,
+				219311BF140D4E6200B82BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219311BF140D4E6200B82BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219311BE140D4E6200B82BFA /* Zema.app */,
+				219311E2140D4E6200B82BFA /* ZemaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219311C1140D4E6200B82BFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21E47F8E1417BEDB00279819 /* AddressBook.framework */,
+				219311C2140D4E6200B82BFA /* Cocoa.framework */,
+				219311E3140D4E6200B82BFA /* SenTestingKit.framework */,
+				219311C4140D4E6200B82BFA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		219311C4140D4E6200B82BFA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219311C5140D4E6200B82BFA /* AppKit.framework */,
+				219311C6140D4E6200B82BFA /* CoreData.framework */,
+				219311C7140D4E6200B82BFA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		219311C8140D4E6200B82BFA /* zema */ = {
+			isa = PBXGroup;
+			children = (
+				2176400C141CEA310074D800 /* Helper */,
+				219311D4140D4E6200B82BFA /* zemaAppDelegate.h */,
+				219311D5140D4E6200B82BFA /* zemaAppDelegate.m */,
+				219311D7140D4E6200B82BFA /* MainMenu.xib */,
+				2175ACC2141A39700062FD1A /* ContextView.h */,
+				2175ACC3141A39700062FD1A /* ContextView.m */,
+				21E47F891417A70300279819 /* SearchController.h */,
+				21E47F8A1417A70300279819 /* SearchController.m */,
+				21E47F8B1417A70300279819 /* SearchController.xib */,
+				219311DA140D4E6200B82BFA /* zema.xcdatamodeld */,
+				219311C9140D4E6200B82BFA /* Supporting Files */,
+			);
+			path = zema;
+			sourceTree = "<group>";
+		};
+		219311C9140D4E6200B82BFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				219311CA140D4E6200B82BFA /* Zema-Info.plist */,
+				219311CB140D4E6200B82BFA /* InfoPlist.strings */,
+				219311CE140D4E6200B82BFA /* main.m */,
+				219311D0140D4E6200B82BFA /* Zema-Prefix.pch */,
+				219311D1140D4E6200B82BFA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		219311E8140D4E6200B82BFA /* zemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				219311EE140D4E6200B82BFA /* zemaTests.h */,
+				219311F0140D4E6200B82BFA /* zemaTests.m */,
+				219311E9140D4E6200B82BFA /* Supporting Files */,
+			);
+			path = zemaTests;
+			sourceTree = "<group>";
+		};
+		219311E9140D4E6200B82BFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				219311EA140D4E6200B82BFA /* ZemaTests-Info.plist */,
+				219311EB140D4E6200B82BFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219311BD140D4E6200B82BFA /* Zema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219311F4140D4E6200B82BFA /* Build configuration list for PBXNativeTarget "Zema" */;
+			buildPhases = (
+				21764007141C87420074D800 /* ShellScript */,
+				219311BA140D4E6200B82BFA /* Sources */,
+				219311BB140D4E6200B82BFA /* Frameworks */,
+				219311BC140D4E6200B82BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zema;
+			productName = zema;
+			productReference = 219311BE140D4E6200B82BFA /* Zema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		219311E1140D4E6200B82BFA /* ZemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219311F7140D4E6200B82BFA /* Build configuration list for PBXNativeTarget "ZemaTests" */;
+			buildPhases = (
+				219311DD140D4E6200B82BFA /* Sources */,
+				219311DE140D4E6200B82BFA /* Frameworks */,
+				219311DF140D4E6200B82BFA /* Resources */,
+				219311E0140D4E6200B82BFA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219311E7140D4E6200B82BFA /* PBXTargetDependency */,
+			);
+			name = ZemaTests;
+			productName = zemaTests;
+			productReference = 219311E2140D4E6200B82BFA /* ZemaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219311B5140D4E6200B82BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "art of coding UG";
+			};
+			buildConfigurationList = 219311B8140D4E6200B82BFA /* Build configuration list for PBXProject "Zema" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 219311B3140D4E6200B82BFA;
+			productRefGroup = 219311BF140D4E6200B82BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219311BD140D4E6200B82BFA /* Zema */,
+				219311E1140D4E6200B82BFA /* ZemaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219311BC140D4E6200B82BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219311CD140D4E6200B82BFA /* InfoPlist.strings in Resources */,
+				219311D3140D4E6200B82BFA /* Credits.rtf in Resources */,
+				219311D9140D4E6200B82BFA /* MainMenu.xib in Resources */,
+				21E47F8D1417A70300279819 /* SearchController.xib in Resources */,
+				215C6CFA1418A37E00DB2434 /* lambda_rot.png in Resources */,
+				215C6CFC1418A5E200DB2434 /* aoc_lambda_rot.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219311DF140D4E6200B82BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219311ED140D4E6200B82BFA /* InfoPlist.strings in Resources */,
+				219311EF140D4E6200B82BFA /* zemaTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21764007141C87420074D800 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /opt/local/bin/bash;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" ${SRCROOT}/zema/Zema-Info.plist)\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" ${SRCROOT}/zema/Zema-Info.plist";
+		};
+		219311E0140D4E6200B82BFA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219311BA140D4E6200B82BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219311CF140D4E6200B82BFA /* main.m in Sources */,
+				219311D6140D4E6200B82BFA /* zemaAppDelegate.m in Sources */,
+				219311DC140D4E6200B82BFA /* zema.xcdatamodeld in Sources */,
+				21E47F8C1417A70300279819 /* SearchController.m in Sources */,
+				215AAC5A1417C6BB00372ABD /* Resource.m in Sources */,
+				215C6CFF1418E9AE00DB2434 /* AddressBook.m in Sources */,
+				2175ACC4141A39700062FD1A /* ContextView.m in Sources */,
+				217B9497141B8D7B001E8D45 /* DragDrop.m in Sources */,
+				2176400A141C8A220074D800 /* Speech.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219311DD140D4E6200B82BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219311F1140D4E6200B82BFA /* zemaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		219311E7140D4E6200B82BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219311BD140D4E6200B82BFA /* Zema */;
+			targetProxy = 219311E6140D4E6200B82BFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		219311CB140D4E6200B82BFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219311CC140D4E6200B82BFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		219311D1140D4E6200B82BFA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219311D2140D4E6200B82BFA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		219311D7140D4E6200B82BFA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219311D8140D4E6200B82BFA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		219311EB140D4E6200B82BFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219311EC140D4E6200B82BFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219311F2140D4E6200B82BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		219311F3140D4E6200B82BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		219311F5140D4E6200B82BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zema/Zema-Prefix.pch";
+				INFOPLIST_FILE = "zema/Zema-Info.plist";
+				PRODUCT_NAME = Zema;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		219311F6140D4E6200B82BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zema/Zema-Prefix.pch";
+				INFOPLIST_FILE = "zema/Zema-Info.plist";
+				PRODUCT_NAME = Zema;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		219311F8140D4E6200B82BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zema.app/Contents/MacOS/zema";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zema/zema-Prefix.pch";
+				INFOPLIST_FILE = "zemaTests/ZemaTests-Info.plist";
+				PRODUCT_NAME = ZemaTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		219311F9140D4E6200B82BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zema.app/Contents/MacOS/zema";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zema/zema-Prefix.pch";
+				INFOPLIST_FILE = "zemaTests/ZemaTests-Info.plist";
+				PRODUCT_NAME = ZemaTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219311B8140D4E6200B82BFA /* Build configuration list for PBXProject "Zema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219311F2140D4E6200B82BFA /* Debug */,
+				219311F3140D4E6200B82BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219311F4140D4E6200B82BFA /* Build configuration list for PBXNativeTarget "Zema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219311F5140D4E6200B82BFA /* Debug */,
+				219311F6140D4E6200B82BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219311F7140D4E6200B82BFA /* Build configuration list for PBXNativeTarget "ZemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219311F8140D4E6200B82BFA /* Debug */,
+				219311F9140D4E6200B82BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		219311DA140D4E6200B82BFA /* zema.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				219311DB140D4E6200B82BFA /* zema.xcdatamodel */,
+			);
+			currentVersion = 219311DB140D4E6200B82BFA /* zema.xcdatamodel */;
+			path = zema.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 219311B5140D4E6200B82BFA /* Project object */;
+}
